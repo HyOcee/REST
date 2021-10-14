@@ -1,0 +1,79 @@
+header.main nav.top {
+    float: right;
+    font-size: 11px;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+header.main nav.top li {
+    display: inline;
+}
+
+header.main .search {
+    clear: right;
+    float: right;
+    margin: 14px 0 4px;toprightbottom
+}
+
+a, abbr, acronym, address, applet, 
+aside, audio, b, big, blockquote, body, 
+caption, center, cite, code, dd, del,
+ s, samp, section, small, span, strike,
+ summary, sup, table, tbody, td, tfoot, 
+time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header.main nav.main>ul>li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+header.main nav.main>ul>li>a {(linkintab)
+    text-decoration: none;
+    font-size: 12px;
+    color: #5f6a72;
+    font-family: HelveticaNeueW01-75Bold,Helvetica,Helvetica,Arial,sans-serif;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    transition: color 75ms linear;
+}
+
+footer.main p {Copyright © 1995 - 2020 Boeing. All Rights Reserved.
+    color: #a1a3a6;
+    line-height: 38px;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrap {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
